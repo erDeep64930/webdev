@@ -11,7 +11,7 @@ const messageSlice = createSlice({
         },
         resetMessage: (state, action) => {
             state.message = ""
-        }
+        },
     }
 })
 

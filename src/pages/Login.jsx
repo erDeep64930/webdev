@@ -13,9 +13,10 @@ const Login = () => {
     }
   }
   return (
-    <div className="flex justify-center items-center h-screen w-screen">
+    <div className="flex justify-center items-center h-screen w-screen p-2">
       <form onSubmit={handleSubmit}>
-        <input type="text" onChange={(e) => setName(e.target.value)} className="border-2 border-blue-500"/>
+        <label>Type your Text here</label>
+        <input type="text" onChange={(e) => setName(e.target.value)} className="border-2 border-blue-500" placeholder="enter your text"/>
       </form>
     </div>
   )
