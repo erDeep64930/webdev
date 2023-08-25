@@ -10,19 +10,21 @@ import FreePricing from "./components/FreePricing"
 import PremiumPrice from "./components/PremiumPrice"
 import ForPremiumUser from "./pages/ForPremiumUser"
 import ProtectedRoute from "./components/ProtectedRoute"
-import Child1 from "./reduxConcept/Child1"
-import Child2 from "./reduxConcept/Child2"
+// import Child1 from "./reduxConcept/Child1"
+// import Child2 from "./reduxConcept/Child2"
+import ProjectPractice from "./pages/ProjectPractice"
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Child1 />
-      <Child2 />
+      {/* <Child1 />
+      <Child2 /> */}
       <Routes>
         <Route path="/user/:userId" element={<Profile />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/" element={<Home />} />
+
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
 
@@ -35,6 +37,7 @@ const App = () => {
           <Route path="free" element={<FreePricing />} />
           <Route path="premium" element={<PremiumPrice />} />
         </Route>
+        <Route path="/project" element={<ProjectPractice />} />
       </Routes>
     </div>
   )

@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const messageSlice = createSlice({
-    name: "messageSlice",
+    name: "messageTry",
     initialState: {
         message: ""
     },
@@ -9,7 +9,7 @@ const messageSlice = createSlice({
         setMessage: (state, action) => {
             state.message = action.payload;
         },
-        resetMessage: (state, action) => {
+        resetMessage: (state) => {
             state.message = ""
         },
     }
