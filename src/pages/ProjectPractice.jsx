@@ -1,4 +1,5 @@
 
+import AnimatedSignature from "../components/leariningProject/AnimatedSignature"
 import AnimatedText from "../components/leariningProject/AnimatedText"
 import Navbar2 from "../components/leariningProject/Navbar2"
 
@@ -9,6 +10,7 @@ const ProjectPractice = () => {
         <Navbar2 />
        
         <AnimatedText />
+        <AnimatedSignature />
     </div>
   )
 }
