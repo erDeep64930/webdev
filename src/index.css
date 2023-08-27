@@ -19,3 +19,12 @@
     stroke-dashoffset: 0;
   }
 }
+
+
+.clip-path {
+
+  clip-path: polygon(50% 0%, 0% 100% , 100% 100%, );
+  
+  }
+  
+  
