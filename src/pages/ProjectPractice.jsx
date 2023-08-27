@@ -1,10 +1,14 @@
+
+import AnimatedText from "../components/leariningProject/AnimatedText"
 import Navbar2 from "../components/leariningProject/Navbar2"
 
 
 const ProjectPractice = () => {
   return (
-    <div className="mt-15 p-4 ">
+    <div className="mt-15 p-4 mb-20 ">
         <Navbar2 />
+       
+        <AnimatedText />
     </div>
   )
 }
