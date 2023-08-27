@@ -5,9 +5,10 @@ export default {
     extend: {
       keyframes: {
         roll: {
-          "0%": { transform: "translateX(-50% ,-50%) rotate(0deg)" },
-          "100%": { transform: "translateX(-50%,-50%) rotate(360deg)" },
+          "0%": { transform: "translate(-50% ,-50%) rotate(0deg)" },
+          "100%": { transform: "translate(-50%,-50%) rotate(360deg)" },
         },
+     
         text: {
           '0%, 100%': {
             'background-size': '200% 200%',
@@ -21,8 +22,8 @@ export default {
       },
       },
       animation: {
-        roll: "marque 10s linear infinite",
-        text: "text 5s ease infinite",
+        roll: "roll 4s linear infinite",
+        text: "text 3s ease infinite",
       },
     },
   

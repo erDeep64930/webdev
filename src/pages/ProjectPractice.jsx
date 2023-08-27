@@ -1,4 +1,5 @@
 
+import AnimatedCard from "../components/leariningProject/AnimatedCard"
 import AnimatedPyramid from "../components/leariningProject/AnimatedPyramid"
 import AnimatedSignature from "../components/leariningProject/AnimatedSignature"
 import AnimatedText from "../components/leariningProject/AnimatedText"
@@ -12,6 +13,8 @@ const ProjectPractice = () => {
        
         <AnimatedText />
         <AnimatedSignature />
+
+        <AnimatedCard />
         <AnimatedPyramid />
     </div>
   )

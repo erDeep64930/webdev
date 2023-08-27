@@ -26,5 +26,20 @@
   clip-path: polygon(50% 0%, 0% 100% , 100% 100%, );
   
   }
+
+  @layer components {
+    .cardAnimation{
+      @apply relative w-[350px] h-[190px] bg-white transition-all duration-300 hover:h-[450px]
+    }
+    .cardLineAnimation{
+      @apply absolute inset-0 overflow-hidden
+    }
+    .cardLineAnimation::before{
+      @apply content-[''] absolute top-[50%] left-[50%] w-[600px] h-[120px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent translate-x-[-50%] translate-y-[-50%] animate-roll
+    }
+    .cardLineAnimation::after{
+      @apply content-[''] absolute inset-2 bg-black
+    }
+  }
   
   
