@@ -4,6 +4,7 @@ import AnimatedPyramid from "../components/leariningProject/AnimatedPyramid"
 import AnimatedSignature from "../components/leariningProject/AnimatedSignature"
 import AnimatedText from "../components/leariningProject/AnimatedText"
 import Navbar2 from "../components/leariningProject/Navbar2"
+import GradientPyramid from "../components/pyramid/GradientPyramid"
 
 
 const ProjectPractice = () => {
@@ -15,6 +16,7 @@ const ProjectPractice = () => {
         <AnimatedSignature />
 
         <AnimatedCard />
+        <GradientPyramid /> 
         <AnimatedPyramid />
     </div>
   )
