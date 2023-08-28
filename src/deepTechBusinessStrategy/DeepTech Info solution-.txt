@@ -1,0 +1,50 @@
+DeepTech Info solution:-
+
+{{Overall project is on  -- Javascript and its framework only }}
+
+
+1. UI design - {Frontend - HTML ,CSS , JS , REACT, TAILWIND } -> 
+    
+2. Backend- {Node Rest API } -> Backend code push Azure 
+
+3. Code manage - Git 
+
+4. Database - Mongo Db 
+
+5. Testing - Jest /selelium
+
+6. Figma Design offer to client Business strategy 
+
+
+7. Project we will handle :-
+
+  a. eCommerce Website. 
+       eg:- Amazon ,flipkart , Myntra , Ajio, ,etc...
+
+  b.Booking App:-
+      eg:- Red bus , BookMyShow , Oyo , Restaurant  etc..
+
+  c.VideoStreaming .
+      eg: Wink music , Spotify, Youtube, Netflix , Hotstar etc...
+
+  d.School , Colleges , Dance , Hospital , Coaching , Event amangement       
+             etc.
+
+
+8. ML with javascript
+
+
+{-------}
+
+meta tag 
+
+
+    <meta name="description" content="Delicious Food for everyone, Got the desired food in minutes" /> 
+    <meta name="keywords" content="Food, Swiggy, UberEat, FoodFire, Deep Tech, Delicious Food">
+    <meta name="author" content="Deep Tech">
+
+
+
+
+
+      
