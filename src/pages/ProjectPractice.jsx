@@ -1,6 +1,7 @@
 
+import AnimatedCircle from "../components/animatedCircle/AnimatedCircle"
 import AnimatedCard from "../components/leariningProject/AnimatedCard"
-import AnimatedPyramid from "../components/leariningProject/AnimatedPyramid"
+
 import AnimatedSignature from "../components/leariningProject/AnimatedSignature"
 import AnimatedText from "../components/leariningProject/AnimatedText"
 import Navbar2 from "../components/leariningProject/Navbar2"
@@ -10,14 +11,14 @@ import GradientPyramid from "../components/pyramid/GradientPyramid"
 const ProjectPractice = () => {
   return (
     <div className="mt-15 p-4 mb-20 ">
-        <Navbar2 />
-       
-        <AnimatedText />
-        <AnimatedSignature />
+      <Navbar2 />
 
-        <AnimatedCard />
-        <GradientPyramid /> 
-        <AnimatedPyramid />
+      <AnimatedText />
+      <AnimatedSignature />
+      <AnimatedCircle />
+      <AnimatedCard />
+      <GradientPyramid />
+
     </div>
   )
 }
