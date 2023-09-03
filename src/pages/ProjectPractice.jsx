@@ -1,4 +1,5 @@
 
+import { ResponsiveNavbar } from "../components/HomeComponents/ResponsiveNavbar"
 import AnimatedCircle from "../components/animatedCircle/AnimatedCircle"
 import AnimatedCard from "../components/leariningProject/AnimatedCard"
 
@@ -18,6 +19,8 @@ const ProjectPractice = () => {
       <AnimatedCircle />
       <AnimatedCard />
       <GradientPyramid />
+
+      <ResponsiveNavbar />
 
     </div>
   )

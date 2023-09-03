@@ -41,5 +41,77 @@
       @apply content-[''] absolute inset-2 bg-black
     }
   }
+
+  @layer components {
+    .nav {
+      @apply h-[5rem] w-screen grid content-center fixed top-0 left-0 z-50 
+    }
+    .nav_container {
+      @apply h-full flex justify-between items-center relative shadow-xl
+    }
+    .logo{
+      @apply w-[3.5rem] 
+    }
+    .logo img {
+      @apply rounded-full
+    }
+    .nav_links{
+      @apply flex items-center gap-[3.5rem]
+    }
+    .active-nav{
+      @apply relative z-50
+    }
+    .active-nav::after {
+      @apply content-[''] block w-[1.2rem] h-[1.2rem] bg-red-500 absolute left-[calc(50%-0.6rem)] mt-[0.9rem] rotate-45
+    }
+  
+    .main_header{
+      @apply w-full h-full grid place-content-center mt-[3rem]
+    }
+    .main_header_container{
+      @apply grid grid-cols-2 items-center justify-center gap-8
+    }
+    .main_header_left{
+      @apply mt-[-3rem] font-medium
+    }
+    .main_header_left h4 {
+      @apply mt-[1rem]
+    }
+    .main_header_left p{
+      @apply mt-[1rem] mr-0 ml-[3rem]
+    }
+    .btn {
+      @apply py-[0.9rem] px-[2rem] rounded-md max-w-fit bg-rose-600
+    }
+  }
+  
+  
+  /* media screen */
+  
+  @media screen and (max-width:1024px){
+    .nav_toggle-btn{
+      @apply inline-block bg-transparent cursor-pointer
+    }
+    .nav_links{
+      @apply absolute top-[100%] right-0 flex flex-col gap-0
+    }
+    .active-nav , .active-nav::after{
+      @apply hidden
+    }
+    .nav_links li {
+      @apply h-[4rem] w-full shadow-xl
+    }
+    .nav_links li a {
+      @apply h-full w-full flex items-center pt-[1rem] pr-[rem] pb-[1rem] pl-[3rem]
+    }
+  
+    /* this is hamberger */
+    .show-nav{
+      @apply flex 
+    }
+    .hide-nav{
+      @apply hidden
+    }
+  }
   
   

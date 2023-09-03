@@ -1,8 +1,13 @@
+// import PricingCard from "../components/HomeComponents/PricingCard"
+// import RotatingCubeImage from "../components/HomeComponents/RotatingCubeImage"
 
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="bg-[#262626] h-screen w-screen">
+      {/* <RotatingCubeImage /> */}
+      {/* <PricingCard /> */}
+    </div>
   )
 }
 
