@@ -7,7 +7,7 @@ import { navMenu } from "../../constant/constant";
 export const ResponsiveNavbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
   return (
-    <div className="nav">
+    <nav className="nav">
       <div className="container nav_container">
         <Link to="/" className="logo" onClick={()=>setIsNavShowing(false)}>
           <img src={logo} alt="logo" />
@@ -36,6 +36,6 @@ export const ResponsiveNavbar = () => {
           {isNavShowing ? <FaTimes size={30}/> : <FaBars  size={30}/>}
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
