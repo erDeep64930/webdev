@@ -1,8 +1,12 @@
+import { AboutNavigation } from "../components/AboutSection/AboutNavigation"
 
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className="mt-50 py-12">
+<AboutNavigation />
+
+    </div>
   )
 }
 
