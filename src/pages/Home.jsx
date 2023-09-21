@@ -2,6 +2,7 @@
 // import RotatingCubeImage from "../components/HomeComponents/RotatingCubeImage"
 
 import { DemoResponsiveNavbar } from "../components/HomeComponents/DemoResponsiveNavbar"
+import TenderCard from "../components/HomeComponents/TenderCard"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       {/* <PricingCard /> */}
 
       <DemoResponsiveNavbar />
+      <TenderCard />
     </div>
   )
 }
