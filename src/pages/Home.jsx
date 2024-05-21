@@ -3,6 +3,7 @@
 
 import { DemoResponsiveNavbar } from "../components/HomeComponents/DemoResponsiveNavbar"
 import TenderCard from "../components/HomeComponents/TenderCard"
+import DigitalWatch from "../components/MiniProject/DigitalWatch"
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <div className=" h-screen w-screen">
       {/* <RotatingCubeImage /> */}
       {/* <PricingCard /> */}
+      <DigitalWatch />
 
       <DemoResponsiveNavbar />
       <TenderCard />
