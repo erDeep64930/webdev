@@ -1,0 +1,28 @@
+:root {
+  /* Medi Tour + Brand Colors */
+  --color-primary: #028476;        /* Medical Teal */
+  --color-primary-light: #14b8a6;  /* Aqua Mint */
+  --color-travel-accent: #0284c7;  /* Ocean Travel Blue */
+  --color-primary-tint: #f0fdfa;   /* Soft Mint Background */
+  --color-primary-border: #99f6e4; /* Subtle Teal Border */
+
+  /* Feature Pill Gradients (Teal to Sky Aqua) */
+  --pill-grad-start: #2dd4bf;
+  --pill-grad-end: #bae6fd;
+
+  /* Text Colors */
+  --text-dark: #0f172a;
+  --text-muted: #475569;
+
+  /* Emergency / Urgent Assistance */
+  --color-danger: #dc2626;
+  --color-danger-bg: #fecaca;
+  --color-danger-border: #f87171;
+
+  /* Surfaces & Shadows */
+  --bg-page: #f8fafc;
+  --bg-card: #ffffff;
+  --shadow-card: 0 20px 50px rgba(2, 132, 118, 0.08), 0 4px 20px rgba(0, 0, 0, 0.03);
+  --shadow-nav: 0 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow-glow-green: 0 8px 20px rgba(20, 184, 166, 0.35);
+}

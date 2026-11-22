@@ -7,6 +7,7 @@ import AnimatedSignature from "../components/leariningProject/AnimatedSignature"
 import AnimatedText from "../components/leariningProject/AnimatedText"
 import Navbar2 from "../components/leariningProject/Navbar2"
 import GradientPyramid from "../components/pyramid/GradientPyramid"
+import Demo from "../demoTest/Demo";
 
 
 const ProjectPractice = () => {
@@ -21,6 +22,7 @@ const ProjectPractice = () => {
       <GradientPyramid />
 
       <ResponsiveNavbar />
+      <Demo />
 
     </div>
   )

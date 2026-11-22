@@ -4,7 +4,7 @@
 import { DemoResponsiveNavbar } from "../components/HomeComponents/DemoResponsiveNavbar"
 import TenderCard from "../components/HomeComponents/TenderCard"
 import DigitalWatch from "../components/MiniProject/DigitalWatch"
-
+import TwoWayBinding from "../components/HomeComponents/TwoWayBinding"
 
 const Home = () => {
   return (
@@ -12,6 +12,7 @@ const Home = () => {
       {/* <RotatingCubeImage /> */}
       {/* <PricingCard /> */}
       <DigitalWatch />
+      <TwoWayBinding />
 
       <DemoResponsiveNavbar />
       <TenderCard />
